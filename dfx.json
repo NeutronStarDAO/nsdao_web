@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "nsdaoweb_backend": {
+      "main": "src/nsdaoweb_backend/main.mo",
+      "type": "motoko"
+    },
+    "nsdaoweb_frontend": {
+      "dependencies": [
+        "nsdaoweb_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/nsdaoweb_frontend/src/index.html"
+      },
+      "source": [
+        "src/nsdaoweb_frontend/assets",
+        "dist/nsdaoweb_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
