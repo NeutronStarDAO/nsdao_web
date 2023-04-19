@@ -257,7 +257,7 @@ body {
 }
 
 .glass-card {
-    width: 85%;
+    width: 70%;
     height: 77%;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(50px);
@@ -313,7 +313,7 @@ body {
     margin: 0 auto;
     font-size: 112%;
     width: 100%;
-    height: 700px;
+    height: 737px;
     background-image: linear-gradient(0deg, rgb(246, 101, 4) 0%, rgb(209, 13, 127) 90%);
     display: flex;
     align-items: center;
@@ -419,7 +419,7 @@ footer p {
     }
 
     .card-grid {
-        width: 70%;
+        width: 75%;
     }
 
     .card {
@@ -427,7 +427,11 @@ footer p {
     }
 
     .card__content {
-        padding: 0;
+        padding: 15px 2px;
+    }
+
+    .social {
+        height: 321px;
     }
 
     .social__box {
@@ -441,7 +445,12 @@ footer p {
     }
 
     .introduction {
-        height: 567px;
+        height: 527px;
+    }
+
+    .glass-card {
+        width: 85%;
+        height: 77%;
     }
 
     .introduction .introduction__desc p {
@@ -449,7 +458,8 @@ footer p {
     }
 
     .about-box {
-        height: 909px;
+        padding-top: 0;
+        height: 1109px;
     }
 
     .tabs {
