@@ -29,12 +29,6 @@ body {
     z-index: -1;
 }
 
-@media (max-width: 1377px) {
-    #defaultCanvas0 {
-        display: none;
-    }
-}
-
 .home {
     width: 100%;
     height: 100vh;
@@ -450,7 +444,7 @@ footer p {
     }
 
     .home .arrow {
-        margin-bottom: 15%;
+        margin-bottom: 20%;
     }
 
     .card-grid {
